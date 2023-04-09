@@ -1,0 +1,29 @@
+.carousel-item {
+    height: 400px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none;
+  }
+  
+  .carousel-control-prev-icon:before {
+    content: '\2039';
+    font-size: 2rem;
+  }
+  
+  .carousel-control-next-icon:before {
+    content: '\203a';
+    font-size: 2rem;
+  }
+  
+  .carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #007bff;
+  }
+  

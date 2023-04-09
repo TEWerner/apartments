@@ -1,0 +1,38 @@
+<div class="locations">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="locations__list">
+            <a href="#" class="locations__item" (mouseover)="showLocation('Tokyo')" (mouseout)="hideLocation()">Japan</a>
+            <a href="#" class="locations__item" (mouseover)="showLocation('Ho Chi Minh City')" (mouseout)="hideLocation()">Vietnam</a>
+            <a href="#" class="locations__item" (mouseover)="showLocation('Kuala Lumpur')" (mouseout)="hideLocation()">Malaysia</a>
+          </div>
+          <div class="locations__description">{{ location }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <app-image-text-box 
+  title="Location 1" 
+  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eu consectetur malesuada, massa nulla consequat eros, vel vestibulum quam turpis eget mauris. Sed vitae malesuada nulla. Suspendisse vel tempor leo." 
+  imagePath="assets/images/202_a_-photo_800x500_.jpg"
+  position="left"
+  >
+</app-image-text-box>
+
+<app-image-text-box 
+  title="Location 2" 
+  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eu consectetur malesuada, massa nulla consequat eros, vel vestibulum quam turpis eget mauris. Sed vitae malesuada nulla. Suspendisse vel tempor leo." 
+  imagePath="assets/images/202_b_-photo_800x500_.jpg"
+  position="right"
+>
+</app-image-text-box>
+
+<app-image-text-box 
+  title="Location 3" 
+  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eu consectetur malesuada, massa nulla consequat eros, vel vestibulum quam turpis eget mauris. Sed vitae malesuada nulla. Suspendisse vel tempor leo." 
+  imagePath="assets/images/Exterior-03_800x500_.jpg"
+  position="left"
+  >
+</app-image-text-box>

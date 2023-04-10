@@ -8,6 +8,7 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
 import { ImageTextBoxComponent } from './image-text-box/image-text-box.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { BrandBoxComponent } from './brand-box/brand-box.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
     LocationsCardComponent,
     SlideshowComponent,
     ImageTextBoxComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    BrandBoxComponent
   ],
   imports: [
     BrowserModule,

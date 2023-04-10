@@ -11,6 +11,7 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
       <div class="text-box" [@slideIn]="position">
         <h2>{{ title }}</h2>
         <p>{{ text }}</p>
+        <a href="#" class="read-more">Read More ></a>
       </div>
     </div>
   `,
